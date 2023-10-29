@@ -17,12 +17,13 @@
             <h1 class="text-white text-4xl pl-60">Developer <span class="text-blue-800">X.</span></h1>
             <div class="pl-36 pt-3">
                 <ul class="text-white flex gap-10 ">
-                    <li class="text-white hover:text-blue-800">Home</li>
-                    <li class="text-white hover:text-blue-800">About</li>
-                    <li class="text-white hover:text-blue-800">Services</li>
-                    <li class="text-white hover:text-blue-800">Portfollo</li>
-                    
-                    <li class="text-white hover:text-blue-800">Contact</li>
+                  <a href="#home">  <li class="text-white hover:text-blue-800">Home</li></a>
+                   <a href="#About"> <li class="text-white hover:text-blue-800">About</li></a>
+                   
+                   <a href="#portfolio"> <li class="text-white hover:text-blue-800">Portfolio</li></a>
+                     
+                    <a href="#contact">  <li class="text-white hover:text-blue-800"> Contact </li></a>
+                
                     
                      
                 </ul>
@@ -36,6 +37,7 @@
         </div>
     </nav>
     <main>
+        <section id="home">
         <div class="flex ">
             <div>
                 <div class="mt-40">
@@ -148,8 +150,9 @@
                 <img class="h-full w-4/5 m " src="abi.jpeg" >
             </div>
         </div>
+       </section>
         </div>
-
+        <section id="About">
         <div class="mt-40 flex gap-20">
             
         <img class="border-4 border-blue-900 ml-60  rounded-full" src="abi.jpeg" height="30"> 
@@ -162,10 +165,13 @@
             <h1 class="text-white pt-4">Email: <span class="text-gray-600"> abishake381@gmail.com </span></h1>
             <h1 class="text-white pt-4">Phone: <span class="text-gray-600"> +91 7305707379</span></h1>
             <h1 class="text-white pt-4">Freelance: <span class="text-gray-600"> Avalaible</span></h1>
-           <div class="pt-10"> <button class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl ">View All Projects</button>
+           <div class="pt-10"> 
+            <button class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl ">View All Projects</button>
                     </div>
                  </div>
         </div>
+    </section>
+        <section id="portfolio">
         <div id="Portfolio" >
             <div class="flex justify-center pb-20">
               <h1 class="text-white text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
@@ -176,7 +182,7 @@
                   <img class="h-52 w-60 ml-7" src="webpage.jpg" alt="">
                 </div>
                 <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
-                <h2 class="pl-10 pt-5 text-white text-2xl">Website Development For <br> Dark X</h2>
+                <h2 class="pl-10 pt-5 text-white text-2xl">Website Developme<br> Dark X</h2>
               </div>
               <d iv class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800">
                 <div class="pl-10 pt-5">
@@ -194,6 +200,8 @@
               </div>
             </div>
           </div>
+        </section>
+          <section id="contact">
           <div id="Contact" class="pb-20">
             <div class="flex justify-center">
               <h1 class="text-5xl text-white font-bold">
@@ -215,6 +223,7 @@
               </div>
             </div>
           </div>
+        </section>
     </main>
 
 </body>
