@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
 
-    <title>Web Page
+    <title>Protfolio
     </title>
 </head>
 
-<body class="bg-gray-900">
-    <nav class=" top-0 sticky bg-gray-900">
-        <div class="flex ">
+<body class="bg-gray-900 ">
+    <div class="justify-between">
+    <nav class="   sticky bg-gray-900 ">
+        <div class="flex justify-between">
 
-            <h1 class="text-white text-4xl pl-60">Developer <span class="text-blue-800">X.</span></h1>
+            <h1 class="text-white text-4xl ml-10">Developer <span class="text-blue-800">X.</span></h1>
             <div class="pl-36 pt-3">
                 <ul class="text-white flex gap-10 ">
                   <a href="#home">  <li class="text-white hover:text-blue-800">Home</li></a>
@@ -31,26 +32,27 @@
 
             <div class="flex pl-80 pt-2">
                 <a href="tel:+91 7305707979">
-                <button class="text-white px-2 py-1 border-blue-800 rounded-full   border-4 bg-slate-600 hover:text-blue-800">contact me</button>
+                <button class="text-white px-2 py-1 border-blue-800 rounded-full   border-4 bg-slate-600 hover:text-blue-800 mr-32">contact me</button>
                 </a>
             </div>
         </div>
     </nav>
+    </div>
     <main>
-        <section id="home">
-        <div class="flex ">
+        <section class="" id="home">
+        <div class="grid md:grid-cols-2 grid-cols-1">
             <div>
-                <div class="mt-40">
-                    <h1 class="text-white pl-60 text-3xl">Hi,There!</h1>
-                    <h1 class="text-white text-5xl ml-60 ">I'm <span class="text-blue-500 font-bold">ABISHAKE </span>
+                <div class=" mt-10 md:mt-40 md:mx-40 ">
+                    <h1 class="text-white pl-10 text-xl md:text-3xl">Hi,There!</h1>
+                    <h1 class="text-white text-5xl ml-10 ">I'm <span class="text-blue-500 font-bold">ABISHAKE </span>
                     </h1>
 
-                    <p class="text-white ml-60 mt-5 text-3xl"> I am a web Developer & designer
+                    <p class="text-white ml-10 mt-5 text-3xl"> I am a web Developer & designer
                         
                     </p>
-                    <p class="text-white ml-60 text-3xl">python full stack
+                    <p class="text-white ml-10 text-3xl">python full stack
                     </p>
-                    <div class="flex gap-10 pt-6 ml-60">
+                    <div class="flex gap-10 pt-6 ml-10">
                         <a href="https://www.facebook.com/abishake.abishake.7758?mibextid=ZbWKwL">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="60"
                             viewBox="0 0 48 48">
@@ -139,24 +141,25 @@
                         </a>
                     </div>
                 </div>
-                <div class="pt-5 flex gap-10 ">
-                    <button class="ml-60 bg-blue-500  px-3 py-1 rounded-lg hover:text-white">Hire me</button><a href="resume.pdf"download>
+                <div class="pt-5 flex gap-10 md:mx-40 ">
+                    <button class="ml-10 bg-blue-500  px-3 py-1 rounded-lg hover:text-white">Hire me</button><a href="resume.pdf"download>
                     <button 
                          class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl">Download
                         Resume</button> </a>
                 </div> 
             </div>
-            <div class=" pt-20 ml-44">
-                <img class="h-full w-4/5 m " src="abi.jpeg" >
+            <div class="mt-10 px-5 md:px-40 md:mt-36">
+                <img class="h-full w-96" src="abi.jpeg">
             </div>
         </div>
        </section>
-        </div>
+       
         <section id="About">
-        <div class="mt-40 flex gap-20">
-            
-        <img class="border-4 border-blue-900 ml-60  rounded-full" src="abi.jpeg" height="30"> 
-        <div>
+        <div class="md:mt-10 mt-5 grid md:grid-cols-2 grid-cols-1 md:mx-40  md:gap-20">
+         <div class="lg:pt-20 lg:h-full lg:w-full">  
+        <img class="border-4 border-blue-900 md:ml-10 rounded-full lg:pt-30" src="abi.jpeg" height="30"> 
+    </div> 
+        <div class="mx-5 md:mx-10">
             <h1 class="text-white text-5xl"> I am Product <span class="text-blue-800 text-5xl font-bold">Designer</span></h1>
             <h1 class="text-white text-5xl pt-3"> & Web Developer </h1>
             <h1 class="text-white pt-4">Experience: <span class="text-gray-600"> Beginer</span></h1>
@@ -165,19 +168,19 @@
             <h1 class="text-white pt-4">Email: <span class="text-gray-600"> abishake381@gmail.com </span></h1>
             <h1 class="text-white pt-4">Phone: <span class="text-gray-600"> +91 7305707379</span></h1>
             <h1 class="text-white pt-4">Freelance: <span class="text-gray-600"> Avalaible</span></h1>
-           <div class="pt-10"> 
-            <button class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl ">View All Projects</button>
+           <div class="pt-10 pb-10"> 
+            <button class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl  ">View All Projects</button>
                     </div>
                  </div>
         </div>
     </section>
         <section id="portfolio">
         <div id="Portfolio" >
-            <div class="flex justify-center pb-20">
+            <div class="flex justify-center pb-10 md:pb-20">
               <h1 class="text-white text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
             </div>
-            <div class="grid grid-cols-3 pl-28 pb-20">
-              <div class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800">
+            <div class="sm:grid grid-cols-1 lg:flex gap-5 pl-28 pb-20">
+              <div class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800 ">
                 <div class="pl-10 pt-5">
                   <img class="h-52 w-60 ml-7" src="webpage.jpg" alt="">
                 </div>
@@ -202,21 +205,21 @@
           </div>
         </section>
           <section id="contact">
-          <div id="Contact" class="pb-20">
+          <div id="Contact" class="pb-10 md:pb-20 ">
             <div class="flex justify-center">
-              <h1 class="text-5xl text-white font-bold">
+              <h1 class="text-2xl md:text-5xl text-white font-bold">
                 Contact <span class="text-blue-800">Me</span>
               </h1>
             </div>
             <div> 
               <div class="flex justify-center pt-28 pb-3">
-                <input type="text" placeholder="Your Name" class="bg-gray-800 w-96 p-2 text-xl text-white border-4 border-blue-800 rounded-lg ">
+                <input type="text" placeholder="Your Name" class="bg-gray-800 w-96 p-2 text-sm md:text-xl text-white border-4 border-blue-800 rounded-lg ">
               </div>
               <div class="flex justify-center pb-3">
-                <input type="text" placeholder="Email Address... eg:abc@gmail.com" class="bg-gray-800 w-96 p-2 text-xl text-white border-4 border-blue-800 rounded-lg ">
+                <input type="text" placeholder="Email Address" class="bg-gray-800 w-96 p-2 text-sm md:text-xl text-white border-4 border-blue-800 rounded-lg ">
               </div>
               <div class="flex justify-center pb-3">
-                <textarea type="text" placeholder="Write Message Here..." class="bg-gray-800 h-60 w-96 p-2 text-xl text-white border-4 border-blue-800 rounded-lg "></textarea>
+                <textarea type="text" placeholder="Write Message Here..." class="bg-gray-800 h-60 w-96 p-2 text-sm md:text-xl text-white border-4 border-blue-800 rounded-lg "></textarea>
               </div>
               <div class="flex justify-center mr-16 mt-5">
                 <button class="bg-blue-800 px-3 py-1 rounded-lg text-2xl hover:text-white">Send Message</button>
