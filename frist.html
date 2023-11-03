@@ -11,29 +11,26 @@
 </head>
 
 <body class="bg-gray-900 " >  
-    <div style="background-image: url(bg.jpg);"></div>
-    <div class="sm:justify-between">
-    <nav class="  top-0 sticky bg-gray-900 ">
-        <div class="flex justify-between">
+     
+    <div>
+    <nav class=" top-0 sticky bg-gray-900 ">
+        <div class="flex justify-center">
 
-            <h1 class="text-white text-4xl ml-10">Developer <span class="text-blue-800">X.</span></h1>
-            <div class="pl-36 pt-3">
-                <ul class="text-white flex gap-10 ">
+            <h1 class="text-white text-2xl md:text-4xl ml-5 md:ml-10">Developer <span class="text-blue-800">X.</span></h1>
+            <div class="pl-16 md:pl-36 pt-1 md:pt-3">
+                <ul class="text-white flex gap-5 md:gap-10 ">
                   <a href="#home">  <li class="text-white hover:text-blue-800">Home</li></a>
                    <a href="#About"> <li class="text-white hover:text-blue-800">About</li></a>
                    
                    <a href="#portfolio"> <li class="text-white hover:text-blue-800">Portfolio</li></a>
                      
-                    <a href="#contact">  <li class="text-white hover:text-blue-800"> Contact </li></a>
-                
-                    
-                     
+                    <a href="#contact">  <li class="text-white hover:text-blue-800"> Contact </li></a>    
                 </ul>
             </div>
 
-            <div class="flex pl-80 pt-2">
+            <div class=" md:pl-80 md:pt-2 pl-40 pt-1">
                 <a href="tel:+91 7305707979">
-                <button class="text-white px-2 py-1 border-blue-800 rounded-full   border-4 bg-slate-600 hover:text-blue-800 mr-32">contact me</button>
+                <button class="text-white px-2 py-1 border-blue-800 rounded-3xl md:rounded-full border-2  md:border-4 bg-slate-600 hover:text-blue-800 mr-16 md:mr-32">contact me</button>
                 </a>
             </div>
         </div>
@@ -41,19 +38,18 @@
     </div>
     <main>
         <section class="" id="home">
-        <div class="grid md:grid-cols-2 grid-cols-1 sm:flex-col-reverse">
-            <div>
-                <div class=" mt-10 md:mt-40 md:mx-40 ">
+        <div class=" md:grid-cols-2 grid grid-cols-1">
+            <div >
+                
+                <div class=" mt-10 mx-10 md:mt-40 md:mx-40 ">
                     <h1 class="text-white pl-10 text-xl md:text-3xl">Hi,There!</h1>
-                    <h1 class="text-white text-5xl ml-10 ">I'm <span class="text-blue-500 font-bold">ABISHAKE </span>
+                    <h1 class="text-white text-2xl md:text-5xl ml-10 ">I'm <span class="text-blue-500 font-bold">ABISHAKE </span>
                     </h1>
-
-                    <p class="text-white ml-10 mt-5 text-3xl"> I am a web Developer & designer
-                        
+                    <p class="text-white ml-10 mt-3 text-xl md:text-3xl"> I am a web Developer & designer
                     </p>
-                    <p class="text-white ml-10 text-3xl">python full stack
+                    <p class="text-white ml-10 text-xl md:text-3xl">python full stack
                     </p>
-                    <div class="flex gap-10 pt-6 ml-10">
+                    <div class="flex gap-5 md:gap-10 pt-6 ml-10">
                         <a href="https://www.facebook.com/abishake.abishake.7758?mibextid=ZbWKwL">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="60"
                             viewBox="0 0 48 48">
@@ -142,71 +138,77 @@
                         </a>
                     </div>
                 </div>
-                <div class="pt-5 flex gap-10 md:mx-40 ">
+                <div class="pt-5 flex gap-5 md:gap-10 md:mx-40 ">
                     <button class="ml-10 bg-blue-500  px-3 py-1 rounded-lg hover:text-white">Hire me</button><a href="resume.pdf"download>
                     <button 
                          class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl">Download
                         Resume</button> </a>
                 </div> 
             </div>
-            <div class="mt-10 px-5 md:px-40 md:mt-36">
-                <img class="h-full w-96" src="abi.jpeg">
+                <div class="mt-10 px-5 md:px-40 md:mt-36  ">
+                    <img  class="h-48 w-48 md:h-full md:w-96 " src="abi.jpeg">
+                
             </div>
+            
         </div>
        </section>
-       
+       <br>
+       <br>
         <section id="About">
-        <div class="md:mt-10 mt-5 grid md:grid-cols-2 grid-cols-1 md:mx-40  md:gap-20 sm:justify-center">
-         <div class="lg:pt-20 lg:h-full lg:w-full">  
-        <img class="border-4 border-blue-900 md:ml-10 rounded-full lg:pt-30" src="abi.jpeg" height="30"> 
+            <h1 class="bg-gray-900 text-center text-blue-700 font-bold text-4xl">About</h1>
+        <div class="md:mt-5 mt-3 grid md:grid-cols-2 grid-cols-1 md:mx-40  md:gap-20 sm:justify-center">
+         <div class="lg:pt-20  h-48 w-48 md:h-full md:w-full">  
+        <img class="border-4 border-blue-900 ml-5 md:ml-10 rounded-full pt-15 lg:pt-30" src="abi.jpeg" height="30"> 
     </div> 
         <div class="mx-5 md:mx-10">
-            <h1 class="text-white text-5xl"> I am Product <span class="text-blue-800 text-5xl font-bold">Designer</span></h1>
-            <h1 class="text-white text-5xl pt-3"> & Web Developer </h1>
-            <h1 class="text-white pt-4">Experience: <span class="text-gray-600"> Beginer</span></h1>
-            <h1 class="text-white pt-4">Specialty: <span class="text-gray-600"> Product Designer,Developer</span></h1>
-            <h1 class="text-white pt-4">Address: <span class="text-gray-600"> chennai,Tamil Nadu</span></h1>
-            <h1 class="text-white pt-4">Email: <span class="text-gray-600"> abishake381@gmail.com </span></h1>
-            <h1 class="text-white pt-4">Phone: <span class="text-gray-600"> +91 7305707379</span></h1>
-            <h1 class="text-white pt-4">Freelance: <span class="text-gray-600"> Avalaible</span></h1>
-           <div class="pt-10 pb-10"> 
+            <h1 class="text-white text-2xl md:text-5xl"> I am Product <span class="text-blue-800 text-2xl md:text-5xl font-bold">Designer</span></h1>
+            <h1 class="text-white text-2xl md:text-5xl pt-3"> & Web Developer </h1>
+            <h1 class="text-white pt-4">Experience: <span class="text-gray-500"> Beginer</span></h1>
+            <h1 class="text-white pt-4">Specialty: <span class="text-gray-500"> Full stack Developer</span></h1>
+            <h1 class="text-white pt-4">Address: <span class="text-gray-500"> chennai,Tamil Nadu</span></h1>
+            <h1 class="text-white pt-4">Email: <span class="text-gray-500"> abishake381@gmail.com </span></h1>
+            <h1 class="text-white pt-4">Phone: <span class="text-gray-500"> +91 7305707379</span></h1>
+            <h1 class="text-white pt-4">Freelance: <span class="text-gray-500"> Avalaible</span></h1>
+           <div class="pt-10 pb-10"> <a href="https://github.com/Abishake01">
             <button class=" border-4 border-blue-800 px-3 py-1 rounded-lg text-blue-800 hover:text-white text-xl  ">View All Projects</button>
+        </a>
                     </div>
                  </div>
         </div>
     </section>
         <section id="portfolio">
-        <div id="Portfolio" >
-            <div class="flex justify-center pb-10 md:pb-20">
-              <h1 class="text-white text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
-            </div>
-            <div class="sm:grid grid-cols-1 lg:flex gap-5 pl-28 pb-20">
-              <div class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5 ">
-                <div class="pl-10 md:pt-5">
+            <div class="flex justify-center  pb-10 md:pb-20">
+                <h1 class="text-white text-2xl text-center md:text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
+              </div>
+        <div class="md:flex justify-center">
+           
+            <div class="grid grid-cols-1 lg:flex gap-5 pl-28 pb-20">
+              <div class="h-96 w-96 bg-gray-800 rounded-xl border-2 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5 ">
+                <div class="pl-5 md:pl-10 mpt-5">
                   <img class="h-52 w-60 ml-7" src="webpage.jpg" alt="hacker image">
                 </div>
-                <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
-                <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development<br> Dark X</h2>
+                <h1 class="pl-10 text-gray-500 text-xs md:text-xl mt-8">Web Design</h1>
+                <h2 class="pl-10 text-white text-xl md:text-2xl">Website Development<br> Dark X</h2>
               </div>
-              <d iv class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
-                <div class="pl-10 md:pt-5">
+              <d iv class="h-96 w-96 bg-gray-800 rounded-xl border-2 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
+                <div class="pl-5 md:pl-10 pt-5">
                   <img class="h-52 w-60 ml-7" src="webpage1.jpg" alt="hacker image">
                 </div>
-                <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
+                <h1 class="pl-10 text-gray-500 text-xs md:text-xl mt-8">Web Design</h1>
                 <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development <br> Dark X</h2>
               </d>
-              <div class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
-                <div class="pl-10  md:pt-5">
+              <div class="h-96 w-96 bg-gray-800 rounded-xl border-2 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
+                <div class="pl-5 md:pl-10  pt-5">
                   <img class="h-52 w-60 ml-7" src="webpage2.jpg" alt="hacker image">
                 </div>
-                <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
+                <h1 class="pl-10 text-gray-500 text-xs md:text-xl mt-8">Web Design</h1>
                 <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development <br> Dark X</h2>
               </div>
             </div>
           </div>
         </section>
           <section id="contact">
-          <div id="Contact" class="pb-10 md:pb-20 ">
+          <div  class="pb-10 md:pb-20 ">
             <div class="flex justify-center">
               <h1 class="text-2xl md:text-5xl text-white font-bold">
                 Contact <span class="text-blue-800">Me</span>
