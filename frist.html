@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
-
+    
     <title>Protfolio
     </title>
 </head>
 
-<body class="bg-gray-900 ">
-    <div class="justify-between">
-    <nav class="   sticky bg-gray-900 ">
+<body class="bg-gray-900 " >  
+    <div style="background-image: url(bg.jpg);"></div>
+    <div class="sm:justify-between">
+    <nav class="  top-0 sticky bg-gray-900 ">
         <div class="flex justify-between">
 
             <h1 class="text-white text-4xl ml-10">Developer <span class="text-blue-800">X.</span></h1>
@@ -40,7 +41,7 @@
     </div>
     <main>
         <section class="" id="home">
-        <div class="grid md:grid-cols-2 grid-cols-1">
+        <div class="grid md:grid-cols-2 grid-cols-1 sm:flex-col-reverse">
             <div>
                 <div class=" mt-10 md:mt-40 md:mx-40 ">
                     <h1 class="text-white pl-10 text-xl md:text-3xl">Hi,There!</h1>
@@ -155,7 +156,7 @@
        </section>
        
         <section id="About">
-        <div class="md:mt-10 mt-5 grid md:grid-cols-2 grid-cols-1 md:mx-40  md:gap-20">
+        <div class="md:mt-10 mt-5 grid md:grid-cols-2 grid-cols-1 md:mx-40  md:gap-20 sm:justify-center">
          <div class="lg:pt-20 lg:h-full lg:w-full">  
         <img class="border-4 border-blue-900 md:ml-10 rounded-full lg:pt-30" src="abi.jpeg" height="30"> 
     </div> 
@@ -180,26 +181,26 @@
               <h1 class="text-white text-4xl font-bold">My <span class="text-blue-800">Portfolio</span></h1>
             </div>
             <div class="sm:grid grid-cols-1 lg:flex gap-5 pl-28 pb-20">
-              <div class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800 ">
-                <div class="pl-10 pt-5">
-                  <img class="h-52 w-60 ml-7" src="webpage.jpg" alt="">
+              <div class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5 ">
+                <div class="pl-10 md:pt-5">
+                  <img class="h-52 w-60 ml-7" src="webpage.jpg" alt="hacker image">
                 </div>
                 <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
-                <h2 class="pl-10 pt-5 text-white text-2xl">Website Developme<br> Dark X</h2>
+                <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development<br> Dark X</h2>
               </div>
-              <d iv class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800">
-                <div class="pl-10 pt-5">
-                  <img class="h-52 w-60 ml-7" src="webpage1.jpg" alt="">
+              <d iv class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
+                <div class="pl-10 md:pt-5">
+                  <img class="h-52 w-60 ml-7" src="webpage1.jpg" alt="hacker image">
                 </div>
                 <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
-                <h2 class="pl-10 pt-5 text-white text-2xl">Website Development For <br> Dark X</h2>
+                <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development <br> Dark X</h2>
               </d>
-              <div class="h-96 w-96 bg-gray-800 rounded-2xl border-4 border-blue-800">
-                <div class="pl-10 pt-5">
-                  <img class="h-52 w-60 ml-7" src="webpage2.jpg" alt="">
+              <div class="h-96 w-96 bg-gray-800 rounded-xl border-4 md:rounded-2xl md:border-4 border-blue-800 pt-3 md:pt-5">
+                <div class="pl-10  md:pt-5">
+                  <img class="h-52 w-60 ml-7" src="webpage2.jpg" alt="hacker image">
                 </div>
                 <h1 class="pl-10 text-gray-500 text-xl mt-8">Web Design</h1>
-                <h2 class="pl-10 pt-5 text-white text-2xl">Website Development For <br> Dark X</h2>
+                <h2 class="pl-10  text-white text-xl md:text-2xl">Website Development <br> Dark X</h2>
               </div>
             </div>
           </div>
@@ -222,7 +223,7 @@
                 <textarea type="text" placeholder="Write Message Here..." class="bg-gray-800 h-60 w-96 p-2 text-sm md:text-xl text-white border-4 border-blue-800 rounded-lg "></textarea>
               </div>
               <div class="flex justify-center mr-16 mt-5">
-                <button class="bg-blue-800 px-3 py-1 rounded-lg text-2xl hover:text-white">Send Message</button>
+                <button class="bg-blue-800 px-3 py-1 rounded-lg text-xl md:text-2xl hover:text-white">Send Message</button>
               </div>
             </div>
           </div>
