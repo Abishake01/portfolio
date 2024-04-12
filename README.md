@@ -1,22 +1,20 @@
 <h1>Portfolio Website</h1>
-**Overview**
+Overview
+
 This repository contains the source code for my responsive portfolio website. The website showcases my projects, skills, and experience in a visually appealing and user-friendly manner.
 
 **Features**
 Responsive Design: The website is designed to be accessible and user-friendly across various devices and screen sizes.
 
-Projects Section: Showcases my recent projects, providing details about each project and links to view them.
-
-Skills Section: Highlights my skills and technologies, demonstrating proficiency in various programming languages, frameworks, and tools.
-
 About Me Section: Provides a brief introduction about myself, including my background, interests, and aspirations.
 
 Contact Section: Includes contact information and a contact form for potential collaborations or inquiries.
+<img src="view.png">
 
 **Technologies Used**
 
-HTML
-Tailwind CSS (including CSS Grid and Flexbox)
+-> HTML
+-> Tailwind CSS (including CSS Grid and Flexbox)
  
 **Usage**
 
