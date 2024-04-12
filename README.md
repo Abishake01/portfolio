@@ -9,7 +9,7 @@ Responsive Design: The website is designed to be accessible and user-friendly ac
 About Me Section: Provides a brief introduction about myself, including my background, interests, and aspirations.
 
 Contact Section: Includes contact information and a contact form for potential collaborations or inquiries.
-<img src="view.png">
+<img src="image/view.png">
 
 **Technologies Used**
 
