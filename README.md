@@ -12,12 +12,16 @@ Contact Section: Includes contact information and a contact form for potential c
 
 ## Screenshots
 
+<h1>Home Page</h1>
 
 ![Screenshot 1](images/home.png)
+<h1>About</h1>
 
 ![Screenshot 1](images/about.png)
+<h1>Certificate</h1>
 
 ![Screenshot 1](images/certificate.png)
+<h1>Contact</h1>
 
 ![Screenshot 1](images/contact.png)
 
