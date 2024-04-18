@@ -12,13 +12,13 @@ Contact Section: Includes contact information and a contact form for potential c
 
 ## Screenshots
 
-![Screenshot 1](images/view.png)
+![Screenshot 1](images/home.png)
 
-![Screenshot 1](images/view.png)
+![Screenshot 1](images/about.png)
 
-![Screenshot 1](images/view.png)
+![Screenshot 1](images/certificate.png)
 
-![Screenshot 1](images/view.png)
+![Screenshot 1](images/contact.png)
 
 ## Technologies Used
 
