@@ -12,6 +12,7 @@ Contact Section: Includes contact information and a contact form for potential c
 
 ## Screenshots
 
+
 ![Screenshot 1](images/home.png)
 
 ![Screenshot 1](images/about.png)
