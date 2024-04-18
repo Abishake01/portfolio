@@ -14,6 +14,11 @@ Contact Section: Includes contact information and a contact form for potential c
 
 ![Screenshot 1](images/view.png)
 
+![Screenshot 1](images/view.png)
+
+![Screenshot 1](images/view.png)
+
+![Screenshot 1](images/view.png)
 
 ## Technologies Used
 
